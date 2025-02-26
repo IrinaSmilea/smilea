@@ -1,0 +1,13 @@
+.some {}
+
+:root {
+    --backgroundColor: #ddd;
+    --headerColor: #ddd;
+    --textPrimary: #000;
+    --textSecondary: #fff;
+    --backgroundCard: #fff;
+    --link: #0386E5;
+    --linkHover: #4CA6E7;
+    --smokyWhite: #F8F8F8;
+    --smokyDark: #E0E0E0;
+}

@@ -1,0 +1,49 @@
+.wrapper {
+    background-color: var(--smokyWhite);
+    width: 100vw;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--smokyDark);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    column-gap: 8rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.325rem;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.copyrightBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.separator {
+    background-color: var(--smokyDark);
+    height: 1px;
+}
+
+@media screen and (max-width: 550px) {
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

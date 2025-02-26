@@ -1,0 +1,180 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /*min-height: 100vh;*/
+    padding-top: 80px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #C9C9C9 0%, rgba(242, 242, 242, 0.59) 41.29%, #F2F2F2 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+    z-index: -5;
+}
+
+.image {
+    width: 70%;
+    height: 70vh;
+    background-image: url("/static/images/main_0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    fill-opacity: 50%;
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    z-index: -3;
+}
+
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleSection .link {
+    margin-right: 32px;
+}
+
+.linkContainer {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--link);
+}
+
+.link:hover {
+    color: var(--linkHover);
+}
+
+.link:active {
+    color: var(--link);
+}
+
+.serviceBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 50vh;
+}
+
+.serviceBlock .link {
+    outline: none;
+    text-align: left;
+    border: none;
+    background: none;
+    width: fit-content;
+}
+
+.serviceName {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.servicePrice {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.priceBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    mix-blend-mode: darken;
+    fill-opacity: 50%;
+    max-height: 50vh;
+    object-fit: cover;
+    right: 6rem;
+    object-position: top;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .h2 {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .serviceName {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
+    .image {
+        display: none;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .serviceBlock {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 120px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .priceBlock {
+        width: 100%;
+        align-items: center;
+    }
+
+    .imageMobile {
+        display: block;
+        width: 100%;
+        height: 250px;
+        z-index: -3;
+        background-image: url("/static/images/main_0.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        mix-blend-mode: darken;
+        fill-opacity: 50%;
+        margin-bottom: 24px;
+    }
+
+    .servicePrice {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+
+}

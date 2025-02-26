@@ -1,0 +1,37 @@
+.container {
+    min-height: 100vh;
+}
+.categoryList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    width: 810px;
+}
+
+.categoryList > a {
+    color: #696969;
+}
+
+.categoryList > a:hover {
+    transform: scale(105%);
+}
+
+
+.categoryList > .linkActive {
+    color: #000000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 550px) {
+    .categoryList {
+        flex-direction: column;
+    }
+
+    .categoryList > a:hover {
+        transform: scale(100%);
+    }
+}
+
+
+

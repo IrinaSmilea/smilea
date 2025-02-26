@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.md {
+    width: 33%;
+    height: 450px;
+}
+
+.lg {
+    width: 50%;
+    height: 450px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.img {
+
+}

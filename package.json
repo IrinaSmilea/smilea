@@ -1,0 +1,49 @@
+{
+  "name": "smilea-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@raphiniert/ra-data-postgrest": "^2.1.0",
+    "@supabase/supabase-js": "^2.41.1",
+    "@types/vk-openapi": "^1.6.4",
+    "appwrite": "^14.0.0",
+    "bootstrap": "^5.3.2",
+    "classnames": "^2.3.2",
+    "google-auth-library": "^9.4.1",
+    "google-spreadsheet": "^4.1.1",
+    "googleapis": "^129.0.0",
+    "hamburger-react": "^2.5.0",
+    "next": "14.0.1",
+    "ra-appwrite": "^0.1.0",
+    "ra-supabase": "^2.2.0",
+    "react": "^18",
+    "react-admin": "^4.16.14",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18",
+    "sqlite3": "^5.1.6",
+    "vk-openapi": "^0.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5",
+    "prisma": "^5.5.2",
+    "schema-dts": "^1.1.2",
+    "typescript": "^5"
+  }
+}

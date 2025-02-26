@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 4px);
+    height: 50vh;
+    text-align: center;
+    padding: 0 50px;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.isTitle {
+    width: 100%;
+    height: 120px;
+}
+
+.imgWide {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.img {
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+}
+
+.textP {
+    z-index: 1;
+    color: var(--textSecondary);
+    font-size: 1rem;
+}
+
+.textH1 {
+    z-index: 1;
+    color: var(--textSecondary);
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 550px) {
+    .card {
+        width: 100%;
+        background-size: cover;
+        background-position-x: 50%;
+    }
+
+    .textH1 {
+        color: var(--textSecondary);
+        font-size: 1.5rem;
+    }
+
+    .textP {
+        font-size: 0.75rem;
+    }
+}
