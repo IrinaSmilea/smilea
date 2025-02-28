@@ -27,9 +27,9 @@ export const Banner = () => {
                     <Link className={styles.link} href="tel:+78125160027">
                         Записаться на приём
                     </Link>
-                    {/* <span className={styles.offer}>
+                    <span className={styles.offer}>
                         *Предложение не является публичной офертой
-                    </span> */}
+                    </span>
                 </div>
             </div>
             <div className={styles.background}></div>
