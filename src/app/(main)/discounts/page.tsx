@@ -151,7 +151,9 @@ export default () => {
                     </div>
                     <div className={styles.image_discount1}></div>
                 </div> */}
-                <span className={styles.offer}>*Не является публичной офертой</span>
+                <span className={styles.offer}>
+                    *Предложение не является публичной офертой
+                </span>
             </div>
         </div>
     );
