@@ -66,6 +66,9 @@
     padding-right: 24px;
 }
 
+.offer {
+    margin-top: 50px
+}
 @media screen and (max-width: 550px) {
     .discountBlock {
         flex-direction: column-reverse;

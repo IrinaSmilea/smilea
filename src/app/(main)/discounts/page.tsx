@@ -35,7 +35,7 @@ export default () => {
         <div className={styles.container}>
             <Headline size={1}>Акции</Headline>
             <div className={styles.discountList}>
-                <div className={styles.discountBlock}>
+                {/* <div className={styles.discountBlock}>
                     <div className={styles.textBlock}>
                         <div>
                             <span className={styles.title}>
@@ -75,8 +75,8 @@ export default () => {
                         </div>
                     </div>
                     <div className={styles.image_discount0}></div>
-                </div>
-                {/*<div className={styles.discountBlock}>*/}
+                </div> */}
+                {/* <div className={styles.discountBlock}>*/}
                 {/*    <div className={styles.textBlock}>*/}
                 {/*        <div>*/}
                 {/*            <span className={styles.title}>*/}
@@ -151,6 +151,7 @@ export default () => {
                     </div>
                     <div className={styles.image_discount1}></div>
                 </div> */}
+                <span className={styles.offer}>*Не является публичной офертой</span>
             </div>
         </div>
     );

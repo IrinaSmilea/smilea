@@ -19,14 +19,17 @@ export const Banner = () => {
             </div>
             <div className={styles.serviceBlock}>
                 <div className={styles.priceBlock}>
-                    <span className={styles.serviceName}>
-                        Профессиональная ультразвуковая чистка
+                    {/* <span className={styles.serviceName}>
+                        Профессиональная ультразвуковая чистка*
                     </span>
                     <div className={styles.imageMobile}></div>
-                    <span className={styles.servicePrice}>1990₽</span>
+                    <span className={styles.servicePrice}>1990₽</span> */}
                     <Link className={styles.link} href="tel:+78125160027">
                         Записаться на приём
                     </Link>
+                    {/* <span className={styles.offer}>
+                        *Предложение не является публичной офертой
+                    </span> */}
                 </div>
             </div>
             <div className={styles.background}></div>
