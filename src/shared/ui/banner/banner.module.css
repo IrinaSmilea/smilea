@@ -62,6 +62,8 @@
     text-decoration: none;
     cursor: pointer;
     color: var(--link);
+    font-size: 1.20rem;
+    margin-top: 14px;
 }
 
 .link:hover {
@@ -89,9 +91,9 @@
 }
 
 .serviceName {
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 .servicePrice {
@@ -121,6 +123,7 @@
 }
 
 .offer {
+    margin-top: 20px;
     font-size: 0.75rem;
 }
 
