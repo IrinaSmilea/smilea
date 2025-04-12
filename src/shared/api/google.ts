@@ -4,10 +4,10 @@ import { google } from "googleapis";
 import { mapPriceListSheetItemsToPriceListItems } from "@/shared/mappers";
 import { PriceListSheets } from "@/shared/models"; 
 
-const email = "smile-567@smilea-452010.iam.gserviceaccount.com";
+const email = "smilea@spiritual-verve-456609-j3.iam.gserviceaccount.com";
 const key = credentials.private_key.replace(/\\n/g, "\n");
 const scopes = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
-const spreadSheetId = "1nSvPeRxjn3kT5pR-cw8ekN37x8bqhtp1heZJWMxuMLE";
+const spreadSheetId = "1Kj9AmF69LKnsDZqyU5SWuCqpkvDg3qbUd-5K9a0PdNs";
 
 const jwt = new JWT({
     email,
@@ -32,8 +32,6 @@ export async function getPriceListTherapySheet(sheet: PriceListSheets) {
 
         const sheetWithHeaders = response.data.values as string[][];
         const sheetOfPriceListSheet = sheetWithHeaders.slice(1);
-
-        console.log("Data from Google Sheets:", sheetOfPriceListSheet);
 
 
         return mapPriceListSheetItemsToPriceListItems(sheetOfPriceListSheet);
