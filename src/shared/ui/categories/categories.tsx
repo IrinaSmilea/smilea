@@ -8,6 +8,7 @@ import styles from "./categories.module.css";
 
 export const Categories = ({categories}: CategoriesProps) => {
     const category = usePathname().split("/")[2];
+    console.log(categories)
 
     return (
         <div className={styles.categoryList}>

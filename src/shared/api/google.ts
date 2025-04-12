@@ -4,10 +4,10 @@ import { google } from "googleapis";
 import { mapPriceListSheetItemsToPriceListItems } from "@/shared/mappers";
 import { PriceListSheets } from "@/shared/models"; 
 
-const email = "smilea@spiritual-verve-456609-j3.iam.gserviceaccount.com";
+const email = "smilea@custom-mix-456615-v2.iam.gserviceaccount.com";
 const key = credentials.private_key.replace(/\\n/g, "\n");
 const scopes = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
-const spreadSheetId = "1Kj9AmF69LKnsDZqyU5SWuCqpkvDg3qbUd-5K9a0PdNs";
+const spreadSheetId = "1nSvPeRxjn3kT5pR-cw8ekN37x8bqhtp1heZJWMxuMLE";
 
 const jwt = new JWT({
     email,
