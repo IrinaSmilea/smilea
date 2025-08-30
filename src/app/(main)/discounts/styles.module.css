@@ -39,6 +39,16 @@
     mix-blend-mode: multiply;
 }
 
+.image_discount4 {
+    background-image: url("/static/images/discount_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
 .title {
     font-size: 25px;
     font-weight: 600;

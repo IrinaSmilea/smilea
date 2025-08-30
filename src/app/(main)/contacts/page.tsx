@@ -19,8 +19,13 @@ export default async function ContactsPage() {
                 <span className={styles.text}>Телефон: +7 (921) 895-65-71</span>
                 <span className={styles.text}>Телефон: +7 (812) 516-00-27</span>
                 <span className={styles.text}>Режим работы:</span>
-                <span className={styles.text}>Пн-Пт: 09:00-20:00</span>
-                <span className={styles.text}>Сб-Вс: 11:00-20:00</span>
+                <span className={styles.text}>Понедельник: 9.00-20.00</span>
+                <span className={styles.text}>Вторник: 9.00-20.00</span>
+                <span className={styles.text}>Среда: 9.00-20.00</span>
+                <span className={styles.text}>Четверг: 9.00-20.00</span>
+                <span className={styles.text}>Пятница: 9.00-20.00</span>
+                <span className={styles.text}>Суббота: 10.00-15.00</span>
+                <span className={styles.text}>Воскресенье: 10.00-15.00</span>
             </div>
 
             <iframe

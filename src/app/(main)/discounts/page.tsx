@@ -35,7 +35,49 @@ export default () => {
         <div className={styles.container}>
             <Headline size={1}>Акции</Headline>
             <div className={styles.discountList}>
-                {/* <div className={styles.discountBlock}>
+                <div className={styles.discountBlock}>
+                    <div className={styles.textBlock}>
+                        <div>
+                            <span className={styles.title}>
+                               -10% на полный съёмный протез в «СМАЙЛ—А»*
+                            </span>
+                        </div>
+                        <div>
+                            <span className={styles.description}>
+                            До 30 сентября 2025 года у нас действует акция: скидка 10% на изготовление полного съёмного протеза!<br />
+
+                            Если вы или ваши близкие столкнулись с потерей зубов — не стоит мириться с неудобством!<br />
+
+                            Съёмный протез:<br />
+                                • восстанавливает жевательную функцию<br />
+                                • возвращает комфорт в общении<br />
+                                • улучшает эстетику и уверенность в себе<br />
+
+                            Подберём оптимальное решение, учтём все анатомические особенности и сделаем всё, чтобы вы снова улыбались без стеснения!<br />
+                            Записывайтесь на консультацию, ведь вы имеете право на красивую улыбку!
+                            </span>
+                        </div>
+                        <div>
+                            <div>
+                                <span className={styles.costTitle}>
+                                    Стоимость услуги:
+                                </span>
+                                <span className={styles.cost}>
+                                    рассчитывается после консультации
+                                </span>
+                            </div>
+                            <div>
+                                <span className={styles.costTitle}>
+                                    Срок проведения акции: 
+                                </span>
+                                <span className={styles.cost}>до 30 сентября 2025 года</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.image_discount4}></div>
+                </div>
+                   {/* <div className={styles.discountList}>
+                <div className={styles.discountBlock}>
                     <div className={styles.textBlock}>
                         <div>
                             <span className={styles.title}>
@@ -75,7 +117,7 @@ export default () => {
                         </div>
                     </div>
                     <div className={styles.image_discount0}></div>
-                </div> */}
+                </div>
                 {/* <div className={styles.discountBlock}>*/}
                 {/*    <div className={styles.textBlock}>*/}
                 {/*        <div>*/}
