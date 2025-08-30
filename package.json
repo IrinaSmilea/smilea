@@ -26,6 +26,7 @@
     "react-admin": "^4.16.14",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18",
+    "react-yandex-metrika": "^2.6.0",
     "sqlite3": "^5.1.6",
     "vk-openapi": "^0.1.2"
   },
