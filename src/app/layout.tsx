@@ -1,6 +1,6 @@
 import type {Metadata} from "next";
 import {Montserrat} from "next/font/google";
-
+import Script from "next/script";
 import "./globals.css";
 import "@/shared/styles/styles.css";
 
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
     return (
-        <html lang="en">
+        <html lang="ru">
             <head>
                 <link
                     rel="apple-touch-icon-precomposed"
@@ -126,7 +126,35 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
                 <meta property="og:image:width" content="<generated>" />
                 <meta property="og:image:height" content="<generated>" />
             </head>
-            <body className={montserrat.className}>{children}</body>
+            <body className={montserrat.className}>
+                {children}
+                <Script id="yandex-metrika" strategy="afterInteractive">
+                    {`
+                        (function(m,e,t,r,i,k,a){
+                            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                            m[i].l=1*new Date();
+                            k=e.createElement(t),a=e.getElementsByTagName(t)[0],
+                            k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+                        })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                        ym(103953677, "init", {
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true,
+                            webvisor:true
+                        });
+                    `}
+                </Script>
+                <noscript>
+                    <div>
+                        <img
+                            src="https://mc.yandex.ru/watch/103953677"
+                            style={{ position: 'absolute', left: '-9999px' }}
+                            alt=""
+                        />
+                    </div>
+                </noscript>
+            </body>
         </html>
     );
 }
