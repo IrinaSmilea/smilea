@@ -44,7 +44,7 @@ export default () => {
                         </div>
                         <div>
                             <span className={styles.description}>
-                            До 31 октября 2025 года у нас действует акция: скидка 10% на изготовление полного съёмного протеза!<br />
+                            До 31 декабря 2025 года у нас действует акция: скидка 10% на изготовление полного съёмного протеза!<br />
 
                             Если вы или ваши близкие столкнулись с потерей зубов — не стоит мириться с неудобством!<br />
 
@@ -70,33 +70,31 @@ export default () => {
                                 <span className={styles.costTitle}>
                                     Срок проведения акции: 
                                 </span>
-                                <span className={styles.cost}>до 31 октября 2025 года</span>
+                                <span className={styles.cost}>до 31 декабря 2025 года</span>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.image_discount4}></div>
+                    <div className={styles.image_discount7}></div>
                 </div>
-                   {/* <div className={styles.discountList}>
+                   <div className={styles.discountList}>
                 <div className={styles.discountBlock}>
                     <div className={styles.textBlock}>
                         <div>
                             <span className={styles.title}>
-                                3 импланта по цене 2! Также: Бесплатная
-                                развернутая консультация с составлением плана
-                                лечения ортопеда и хирурга-имплантолога
+                                Профессиональная гигиена полости рта 5100 рублей вместо 6400 рублей.*
                             </span>
                         </div>
                         <div>
                             <span className={styles.description}>
-                                Наша клиника предлагает Вам получить развернутую
-                                консультацию от наших опытных специалистов -
-                                ортопеда и хирурга-имплантолога. Также мы
-                                предлагаем специальное предложение: три импланта
-                                по цене двух! Они составят для Вас
-                                индивидуальный план лечения, учитывая все Ваши
-                                потребности и особенности. Запишитесь на прием и
-                                сделайте первый шаг к здоровой и красивой
-                                улыбке!
+                                • Осмотр и консультация специалиста <br />
+                                • Ультразвуковое снятие зубного налёта и зубного камня <br />
+                                • Air Flow для бережного удаления пигментации и полировки <br />
+                                • Полировка и реминерализующая обработка эмали <br />
+                                • Рекомендации по домашнему уходу <br />
+                                Преимущества акции: <br />
+                                • Здоровые дёсны, свежий запах и гладкая эмаль уже после визита <br />
+                                • Подходит перед отбеливанием и ортодонтическим лечением <br />
+                                
                             </span>
                         </div>
                         <div>
@@ -105,20 +103,21 @@ export default () => {
                                     Стоимость услуги:
                                 </span>
                                 <span className={styles.cost}>
-                                    рассчитывается после консультации
+                                    5100 рублей
                                 </span>
                             </div>
                             <div>
                                 <span className={styles.costTitle}>
                                     Срок проведения акции:
                                 </span>
-                                <span className={styles.cost}>бессрочно</span>
+                                <span className={styles.cost}>до 31 декабря 2025 года</span>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.image_discount0}></div>
+                    <div className={styles.image_discount6}></div>
                 </div>
-                {/* <div className={styles.discountBlock}>*/}
+             </div>   
+                {/* <div className={styles.discountBlock}>
                 {/*    <div className={styles.textBlock}>*/}
                 {/*        <div>*/}
                 {/*            <span className={styles.title}>*/}
@@ -194,7 +193,7 @@ export default () => {
                     <div className={styles.image_discount1}></div>
                 </div> */}
                 <span className={styles.offer}>
-                    *Предложение не является публичной офертой
+                    *Предложение не является публичной офертой. Необходима консультация специалиста.
                 </span>
             </div>
         </div>
