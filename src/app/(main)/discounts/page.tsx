@@ -30,11 +30,51 @@ export const metadata: Metadata = {
     // },
 };
 
-export default () => {
+ const Discounts = () => {
     return (
         <div className={styles.container}>
             <Headline size={1}>Акции</Headline>
             <div className={styles.discountList}>
+                <div className={styles.discountBlock}>
+                    <div className={styles.textBlock}>
+                        <div>
+                            <span className={styles.title}>
+                                Скидка 10% на лечение кариеса.*
+                            </span>
+                        </div>
+                        <div>
+                            <span className={styles.description}>
+                                Почему кариес — не просто дырка в зубе?<br />
+
+                                • Кариес часто воспринимают, как мелкую проблему: «потемнело — потом полечу». Но на самом деле это хронический инфекционный процесс, который затрагивает не только эмаль!<br />
+
+                                • Кариес начинается незаметно — с деминерализации эмали, без боли и явной «дырки».<br />
+                                • Затем бактерии проникают глубже — в дентин, а позже могут добраться до нерва.<br />
+
+                                • Без лечения кариес приводит к пульпиту, воспалению, боли, инфекции и даже потере зуба.  <br />
+                                Записывайтесь на консультацию, чтобы выявить кариес на ранней стадии и быстрее решить вопрос со здоровьем и красотой вашей улыбки!<br />
+                                
+                            </span>
+                        </div>
+                        <div>
+                            <div>
+                                <span className={styles.costTitle}>
+                                    Стоимость услуги:
+                                </span>
+                                <span className={styles.cost}>
+                                    Рассчитывается после консультации специалиста
+                                </span>
+                            </div>
+                            <div>
+                                <span className={styles.costTitle}>
+                                    Срок проведения акции:
+                                </span>
+                                <span className={styles.cost}>до 10 марта 2026 года</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.image_discount1}></div>
+                </div>
                 <div className={styles.discountBlock}>
                     <div className={styles.textBlock}>
                         <div>
@@ -44,7 +84,7 @@ export default () => {
                         </div>
                         <div>
                             <span className={styles.description}>
-                            До 31 декабря 2025 года у нас действует акция: скидка 10% на изготовление полного съёмного протеза!<br />
+                            До 10 марта 2026 года у нас действует акция: скидка 10% на изготовление полного съёмного протеза!<br />
 
                             Если вы или ваши близкие столкнулись с потерей зубов — не стоит мириться с неудобством!<br />
 
@@ -63,37 +103,34 @@ export default () => {
                                     Стоимость услуги:
                                 </span>
                                 <span className={styles.cost}>
-                                    рассчитывается после консультации
+                                    Рассчитывается после консультации специалиста
                                 </span>
                             </div>
                             <div>
                                 <span className={styles.costTitle}>
                                     Срок проведения акции: 
                                 </span>
-                                <span className={styles.cost}>до 31 декабря 2025 года</span>
+                                <span className={styles.cost}>до 10 марта 2026 года</span>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.image_discount7}></div>
+                    <div className={styles.image_discount8}></div>
                 </div>
                    <div className={styles.discountList}>
                 <div className={styles.discountBlock}>
                     <div className={styles.textBlock}>
                         <div>
                             <span className={styles.title}>
-                                Профессиональная гигиена полости рта 5100 рублей вместо 6400 рублей.*
+                                Профессиональная гигиена (чистка зубных отложений) 5100 ₽ вместо 6400 ₽.*
                             </span>
                         </div>
                         <div>
                             <span className={styles.description}>
-                                • Осмотр и консультация специалиста <br />
-                                • Ультразвуковое снятие зубного налёта и зубного камня <br />
-                                • Air Flow для бережного удаления пигментации и полировки <br />
-                                • Полировка и реминерализующая обработка эмали <br />
-                                • Рекомендации по домашнему уходу <br />
-                                Преимущества акции: <br />
-                                • Здоровые дёсны, свежий запах и гладкая эмаль уже после визита <br />
-                                • Подходит перед отбеливанием и ортодонтическим лечением <br />
+                                Профессиональная гигиена полости рта — это не просто уход, а важная процедура для здоровья и красоты вашей улыбки.
+                                Во время чистки стоматолог аккуратно удаляет налёт и зубной камень даже из труднодоступных мест под десной, проводит полировку эмали и наносит укрепляющий состав.
+
+                                Результат — гладкие, чистые зубы, свежее дыхание и защита от кариеса и воспалений дёсен.<br /><br />
+                                Регулярная профессиональная чистка помогает сохранить здоровье зубов и сияние улыбки на долгие годы.  
                                 
                             </span>
                         </div>
@@ -110,88 +147,14 @@ export default () => {
                                 <span className={styles.costTitle}>
                                     Срок проведения акции:
                                 </span>
-                                <span className={styles.cost}>до 31 декабря 2025 года</span>
+                                <span className={styles.cost}>до 10 марта 2026 года</span>
                             </div>
                         </div>
                     </div>
-                    <div className={styles.image_discount6}></div>
+                    <div className={styles.image_discount9}></div>
                 </div>
+                 
              </div>   
-                {/* <div className={styles.discountBlock}>
-                {/*    <div className={styles.textBlock}>*/}
-                {/*        <div>*/}
-                {/*            <span className={styles.title}>*/}
-                {/*                Лечение кариеса любой сложности по выгодной*/}
-                {/*                цене!*/}
-                {/*            </span>*/}
-                {/*        </div>*/}
-                {/*        <div>*/}
-                {/*            <span className={styles.description}>*/}
-                {/*                Не дайте кариесу разрушить вашу улыбку! Мы*/}
-                {/*                предлагаем эффективное и безболезненное лечение*/}
-                {/*                кариеса по доступной цене. Наши опытные*/}
-                {/*                стоматологи позаботятся о здоровье ваших зубов и*/}
-                {/*                вернут им красоту и прочность.*/}
-                {/*            </span>*/}
-                {/*        </div>*/}
-                {/*        <div>*/}
-                {/*            <div>*/}
-                {/*                <span className={styles.costTitle}>*/}
-                {/*                    Стоимость услуги:*/}
-                {/*                </span>*/}
-                {/*                <span className={styles.cost}>2990₽</span>*/}
-                {/*            </div>*/}
-                {/*            <div>*/}
-                {/*                <span className={styles.costTitle}>*/}
-                {/*                    Срок проведения акции:*/}
-                {/*                </span>*/}
-                {/*                <span className={styles.cost}>*/}
-                {/*                    19 апреля - 19 мая*/}
-                {/*                </span>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*    <div className={styles.image_discount3}></div>*/}
-                {/*</div>*/}
-                {/* <div className={styles.discountBlock}>
-                    <div className={styles.textBlock}>
-                        <div>
-                            <span className={styles.title}>
-                                Профессиональная ультразвуковая чистка со
-                                скидкой 50%!
-                            </span>
-                        </div>
-                        <div>
-                            <span className={styles.description}>
-                                Подарите себе сияющую улыбку с профессиональной
-                                ультразвуковой чисткой зубов! Избавьтесь от
-                                зубного камня, налёта и верните зубам
-                                естественную белизну по специальной цене. Наши
-                                специалисты обеспечат вашим зубам максимально
-                                эффективное и бережное очищение, используя
-                                передовое оборудование и высококачественные
-                                материалы.
-                            </span>
-                        </div>
-                        <div>
-                            <div>
-                                <span className={styles.costTitle}>
-                                    Стоимость услуги:
-                                </span>
-                                <span className={styles.cost}>1990₽</span>
-                            </div>
-                            <div>
-                                <span className={styles.costTitle}>
-                                    Срок проведения акции:
-                                </span>
-                                <span className={styles.cost}>
-                                    19 апреля - 19 мая
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={styles.image_discount1}></div>
-                </div> */}
                 <span className={styles.offer}>
                     *Предложение не является публичной офертой. Необходима консультация специалиста.
                 </span>
@@ -199,3 +162,6 @@ export default () => {
         </div>
     );
 };
+
+
+export default Discounts

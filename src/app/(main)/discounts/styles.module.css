@@ -26,10 +26,14 @@
     mix-blend-mode: multiply;
 }
 .image_discount1 {
-    background-image: url("/static/images/discount_1.png");
+    background-image: url("/static/images/discount_10.png");
     width: 450px;
     height: auto;
     mix-blend-mode: multiply;
+    background-size: contain;
+     background-repeat: no-repeat;
+ background-position: center;
+
 }
 
 .image_discount3 {
@@ -37,6 +41,9 @@
     width: 450px;
     height: auto;
     mix-blend-mode: multiply;
+    background-size: contain;
+     background-position: center;
+    
 }
 
 .image_discount4 {
@@ -61,6 +68,25 @@
 
 .image_discount7 {
     background-image: url("/static/images/discount_7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+.image_discount8 {
+    background-image: url("/static/images/discount_8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.image_discount9 {
+    background-image: url("/static/images/discount_9.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 import styles from "./banner.module.css";
+import Discounts from "@/app/(main)/discounts/page";
+
 
 export const Banner = () => {
     return (
@@ -26,7 +28,6 @@ export const Banner = () => {
                         Индивидуальная скидка на имплантацию*
                     </span>
                     <div className={styles.imageMobile}></div>
-                    {/* <span className={styles.servicePrice}>Индивидуальная скидка на имплантацию*</span> */}
                     <Link className={styles.link} href="tel:+78125160027">
                         Записаться на приём
                     </Link>
@@ -37,6 +38,7 @@ export const Banner = () => {
             </div>
             <div className={styles.background}></div>
             <div className={styles.image}></div>
+            <Discounts/>
         </section>
     );
 };
